@@ -1,0 +1,20 @@
+
+{
+  "name": "postgres-cdc-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "tasks.max": "1",
+    "database.hostname": "postgres",
+    "database.port": "5432",
+    "database.user": "rep_user",
+    "database.password": "rep_pass",
+    "database.dbname": "bigdata",
+    "topic.prefix": "postgres.bigdata.cdc",
+    "database.server.name": "postgres.bigdata.cdc",
+    "table.include.list": "public.teste",
+    "plugin.name": "pgoutput",
+    "publication.name": "dbz_publication",
+    "slot.name": "debezium_slot",
+    "snapshot.mode": "initial"
+  }
+}
