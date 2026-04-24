@@ -70,4 +70,4 @@ docker exec -i postgres psql -U postgres -d bigdata < postgres_setup.sql
    ```bash
    docker exec postgres psql -U postgres -d bigdata -c "UPDATE public.teste SET name='Teste do redis' WHERE id=800;"
    ```
-3. Volte no Redis Insight, clique em atualizar: a chave `cdc_redis_stream` aparecerá na lista de Stream Data, contendo todos os dados processados em tempo real pelo Apache Flink!
+3. Volte no Redis Insight, clique em atualizar: a chave `cdc_redis_stream` aparecerá na lista de Stream Data, contendo todos os dados processados em tempo real pelo Apache Flink.
