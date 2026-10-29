@@ -1,6 +1,6 @@
-# Projeto Universitário - Pipeline CDC (Change Data Capture)
+# Pipeline CDC (Change Data Capture)
 
-**Integrantes do Grupo:**
+**Desenvolvedor:**
 - Vinícius Pereira Polli
 
 ## Sobre o Projeto
