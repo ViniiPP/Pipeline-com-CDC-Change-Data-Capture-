@@ -2,7 +2,6 @@
 
 **Integrantes do Grupo:**
 - Vinícius Pereira Polli
-- Henrique Zanfir
 
 ## Sobre o Projeto
 Este projeto implementa um pipeline de dados utilizando a arquitetura de Change Data Capture (CDC). O fluxo consiste em capturar alterações realizadas no banco de dados PostgreSQL, transmiti-las via Apache Kafka (com auxílio do Debezium via Kafka Connect), processá-las em tempo real utilizando Apache Flink (PyFlink), e finalmente armazenar os dados processados no Redis (Valkey).
